@@ -1,0 +1,11 @@
+package com.svit.dayten.strings;
+
+public class TestImmutableString {
+	 public static void main(String args[]){  
+		   String s="Sachin";  
+		   s.concat(" Tendulkar");//concat() method appends the string at the end  
+		   System.out.println(s);//will print Sachin because strings are immutable objects  
+		 }  
+
+
+}
